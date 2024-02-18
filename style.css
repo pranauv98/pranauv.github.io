@@ -162,21 +162,29 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Adjust font size for better readability on smaller screens */
+    }
     .name {
-        font-size: 30px;
+        font-size: 24px; /* Increase font size for the name */
     }
     .title {
-        font-size: 40px;
+        margin-top: 20px; /* Add some spacing between sections */
     }
-    .about{
-        font-size: 20px;
-        color: red;
+    .about,
+    .hidden {
+        font-size: 16px; /* Adjust font size for paragraphs */
     }
-    .attributes, .LinkedIn {
-        padding: 8px 16px;
-        margin-bottom: 5px;
+    .attributes {
+        margin-bottom: 10px; /* Add spacing between buttons */
     }
     .line {
-        margin-top: 30px;
+        margin: 20px 0; /* Add some spacing below the contact section */
+    }
+    /* Adjust button width and font size */
+    .attributes,
+    .LinkedIn {
+        width: 100%; /* Make buttons full width */
+        font-size: 16px; /* Adjust font size for buttons */
     }
 }
