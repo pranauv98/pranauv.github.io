@@ -170,6 +170,7 @@ body{
     }
     .about{
         font-size: 20px;
+        color: red;
     }
     .attributes, .LinkedIn {
         padding: 8px 16px;
