@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pranauv Kunjithapatham</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <p class="name">
+            Pranauv Kunjithapatham
+        </p>
+        <button class="LinkedIn">
+            LinkedIn
+        </button>
+        <button class="attributes" onclick="scrollToSection('contact')">
+            Contact
+        </button>
+        <p class="title">
+            About:
+        </p>
+        <p class="about">
+            Hi there, I'm a skilled and proactive software engineer with a strong foundation in computer science and hands-on 
+            experience in developing robust systems. With expertise in Java, Python, and cloud technologies such as AWS and 
+            Google Cloud Platform, I am eagerly seeking full-time opportunities to leverage my technical skills and contribute 
+            to innovative projects. My internship experience at Alphastream.ai and previous role at Tata Consultancy Services have 
+            equipped me with the ability to design and optimize systems for scalability and efficiency. I am now ready to 
+            bring my expertise and passion for software engineering to a dynamic team environment where I can continue to grow and 
+            make meaningful contributions. 
+        </p>
+        <button class="attributes" data-target="education">
+            Education
+        </button>
+        <p id="education" class="hidden">
+            <b>Degree</b>      : <span>Master of Science</span> <br>
+            <b>Major</b>       : <span>Computer Science</span> <br>
+            <b>University</b>  : <span>SUNY Binghamton</span> <br>
+            <b>Graduation</b>  : <span>May 2024</span> <br>
+            <b>Coursework</b>  : <span>Data Structures & Algorithms, Database Systems, Cloud Computing, Artificial Intelligence, Design patterns.</span> <br>
+            
+        </p>
+        <br>
+        <button class="attributes" data-target="workExperience">
+            Work experience
+        </button>
+        <p id="workExperience" class="hidden">
+            <c>Alphastream.ai</c><br>
+            <br>
+            <b>Role</b>     : <span>Software Engineer Intern</span><br>
+            <b>Location</b> : <span>Bangalore, India</span><br>
+            <b>Years</b>    : <span>Summer 2023</span><br>   
+            <b>Description</b> : <br><d>
+                • Effectively harnessed Vespa's power to build robust, scalable, and low-latency search and recommendation systems, making it a 
+                valuable tool in my repertoire of technical skills.<br>
+                • Fine-tuned Vespa's performance by optimizing ranking strategies, query processing, indexing strategies, and distributed data storage.<br>
+                • Vespa instances are successfully configured and deployed. Designed and optimized data schemas and customized ranking and 
+                retrieval strategies that increased search efficiency up to 94%<br>
+            </d><br>
+            <br>
+            <br>        
+            <c>Tata Consultancy Services</c><br>
+            <br>
+            <b>Role</b>     : <span>System Analyst</span><br>
+            <b>Location</b> : <span>Chennai, India</span><br>
+            <b>Years</b>    : <span>October 2020 - June 2022</span><br>
+            <b>Description</b>  : <br><d>
+                • Developed and executed DAG (Directed Acyclic Graph) files using SQL, JSON files, and Python to transfer on-premises data to GCP.<br>
+                • Integrated Apache Airflow with GCP to monitor data load credibility and ensure accuracy during migration.<br>
+                • Implemented a streamlined process using Control-M to facilitate the efficient transfer of large data volumes into cloud environments 
+                within an Agile environment with continuous testing practices.<br>
+            </d>
+        </p>
+        <br>
+        <button class="attributes" data-target="projects">
+            Projects
+        </button>
+        <p id="projects" class="hidden">
+            <c>Multi-Threaded Client-Server Application</c><br>
+            <br>
+            <b>Role</b>     : <span>Team leader</span><br>
+            <b>Location</b> : <span>Binghamton,NY</span><br>
+            <b>Description</b> : <br><d>
+                • Developed a multi-threaded server using Java techniques that dynamically handles diverse real-time queries from clients. Implemented a 
+                  flexible text-based menu on the client side, allowing users to interactively submit different types of queries.<br>
+                • Designed modular classes for query processing, applying advanced Java object-oriented principles to create an extensible system. The 
+                  architecture is capable of handling various query types, showcasing scalability and adaptability.<br>
+                • Utilized Java socket programming techniques to establish efficient communication channels between clients and the server. Implemented a 
+                  user-friendly experience with robust error handling, ensuring a seamless and responsive client-server interaction.<br>
+            </d><br>
+            <br>
+            <br>
+            <c>On-demand Video Streaming</c><br>
+            <br>
+            <b>Role</b>     : <span>Team leader</span><br>
+            <b>Location</b> : <span>Binghamton,NY</span><br>   
+            <b>Description</b> : <br><d>
+                • Explored how Amazon Web Services (AWS) can be leveraged to build a video sharing platform that can securely store and stream videos, 
+                  handle user authentication and authorization, and scale to meet the increasing demands of users.<br>
+                • Developed a platform that utilizes variousservices such as S3, Lambda, and MediaConvert to offer secure video storage, authentication, 
+                  and authorization.<br>
+                • Efficiently stored and managed video content, while also making it easily accessible to users through a web-based interface.<br>
+            </d><br>
+            <br>
+            <br>
+            <c>Advanced Safety System using GSM and Beacon Technology</c><br>
+            <br>
+            <b>Role</b>     : <span>Team member</span><br>
+            <b>Location</b> : <span>Chennai, India</span><br>   
+            <b>Description</b> : <br><d>
+                • Designed a system that identifies when a person isin danger and assists them to get help using GSM and Beacon technologies.<br>
+                • Designed hardware structure ofthe prototype to send alert messages and co-ordinate details using GSM and GPS technologies.<br>
+            </d><br>
+            <br>
+        </p>
+        <br>
+        <button class="attributes" data-target="skills">
+            Skills
+        </button>
+
+        <p id="skills" class="hidden">
+            <b>Languages</b>     :   <span>Java, Python, C, SQL, NoSQL.</span><br>
+            <b>Databases</b>     :   <span>BigQuery, MySQL, Oracle, MongoDB, Vespa.</span><br>
+            <b>Cloud Essentials</b>     :   <span> Amazon Web Services, Google Cloud Platform.</span><br>
+            <b>NLP Frameworks</b>     :   <span> DSPy, prompt2model.</span><br>
+            <b>Agile Methodologies</b>     :   <span> Scrum, Kanban.</span><br>
+            <b>Additional skills/tools</b>     :   <span> : VS-Code, Git, ETL(Extract, Transform, Load), Control-m, Jenkins, Docker.</span><br>
+        </p>
+        <div class="line"></div>
+        <section id="contact">
+        <p class="contact">
+            email: pranauv98@gmail.com  |    call: +1(607)-235-8246
+        </p>
+        </section>
+
+        <script>
+            document.querySelectorAll(".attributes").forEach(function(button){
+                button.addEventListener("click",function(){
+                    var targetId = this.getAttribute("data-target");
+                    var targetParagraphs = document.getElementById(targetId);
+                    if(targetParagraphs.classList.contains("hidden")){
+                        targetParagraphs.classList.remove("hidden");
+                    } else {
+                        targetParagraphs.classList.add("hidden");
+                    }
+                });
+            });
+
+            function scrollToSection(sectionID){
+                var section = document.getElementById(sectionID);
+                if(section){
+                    section.scrollIntoView({behavior:"smooth"})
+                }
+            }
+
+            var linkedInButton = document.querySelector('.LinkedIn')
+            linkedInButton.addEventListener('click',function(){
+                var url = "https://www.linkedin.com/in/pranauv-k/";
+                window.open(url,'_blank');
+            });
+        </script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,161 @@
+body{
+    background: #081b29;
+    
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+
+.name {
+    font-family: Arial;
+    text-align: left;
+    font-size: 50px;
+    color: aquamarine;
+}
+
+.title{
+    font-family: Arial;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: rgb(22, 184, 233);
+    
+}
+
+.LinkedIn{
+    background-color: rgb(15, 110, 218);
+    color: white;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 18px;
+    
+}
+
+
+
+.about{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: rgb(241, 246, 250);
+}
+
+.attributes{
+    color: whitesmoke;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(237, 240, 242, 0.509);
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+#education b{
+    color: rgb(22, 184, 233);
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+#education {
+    color: rgb(178, 181, 184);
+    margin-left: 0px;
+}
+
+#workExperience c{
+    font-family: Arial;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: aquamarine;
+
+}
+
+#workExperience b{
+    color: rgb(22, 184, 233);
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+#workExperience {
+    color: rgb(178, 181, 184);
+    margin-left: 0px;
+}
+
+#workExperience d{
+    color: rgb(178, 181, 184);
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#projects b{
+    color: rgb(22, 184, 233);
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+#projects {
+    color: rgb(178, 181, 184);
+    margin-left: 0px;
+}
+
+#projects d{
+    color: rgb(178, 181, 184);
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+}
+#projects c{
+    font-family: Arial;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: aquamarine;
+
+}
+
+#skills b{
+    color: rgb(22, 184, 233);
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+#skills {
+    color: rgb(178, 181, 184);
+    margin-left: 0px;
+}
+
+.line {
+    position: bottom;
+    width: 50%;
+    top: 50%;
+    height: 1px;
+    background-color: #fff;
+    transform: translateY(-50%);
+    margin-top: 50px;
+    margin-left: 320px;
+}
+
+.contact {
+    color: rgb(22, 184, 233);
+    font-style: italic;
+    text-align: center;
+}
