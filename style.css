@@ -159,3 +159,20 @@ body{
     font-style: italic;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .name {
+        font-size: 30px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .attributes, .LinkedIn {
+        padding: 8px 16px;
+        margin-bottom: 5px;
+    }
+    .line {
+        margin-top: 30px;
+    }
+}
