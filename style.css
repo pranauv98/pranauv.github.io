@@ -6,6 +6,44 @@ body{
 
 }
 
+.hero {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.hero-name {
+    font-size: 55px;
+    color: aquamarine;
+    font-family: Arial;
+    margin-bottom: 5px;
+    text-shadow: 0 0 12px rgba(0,255,255,0.4);
+}
+
+.hero-title {
+    font-size: 22px;
+    color: rgb(22,184,233);
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-top: 0;
+    text-shadow: 0 0 6px rgba(22,184,233,0.3);
+}
+
+body {
+    background: url('bg-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* smooth parallax effect */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45); /* slight dark overlay */
+    z-index: -1;
+}
 
 
 .name {
@@ -37,12 +75,23 @@ body{
     
 }
 
+.button-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button-container button {
+    margin: 0 10px; /* spacing between buttons */
+}
+
 
 
 .about{
     margin-top: 5px;
     margin-bottom: 25px;
-    color: rgb(241, 246, 250);
+    color: #9beff5;
+    text-shadow: 0 0 6px rgba(155, 239, 245, 0.4);
+    text-indent: 60px; 
 }
 
 .attributes{
@@ -134,7 +183,7 @@ body{
 #skills b{
     color: rgb(22, 184, 233);
     display: inline-block;
-    width: 150px;
+    width: 250px;
     text-align: left;
 }
 
@@ -162,29 +211,20 @@ body{
 
 
 @media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px; /* Adjust font size for better readability on smaller screens */
-    }
     .name {
-        font-size: 24px; /* Increase font size for the name */
+        font-size: 30px;
     }
     .title {
-        margin-top: 20px; /* Add some spacing between sections */
+        font-size: 20px;
     }
-    .about,
-    .hidden {
-        font-size: 16px; /* Adjust font size for paragraphs */
+    .about{
+        font-size: 10px;
     }
-    .attributes {
-        margin-bottom: 10px; /* Add spacing between buttons */
+    .attributes, .LinkedIn {
+        padding: 8px 16px;
+        margin-bottom: 5px;
     }
     .line {
-        margin: 20px 0; /* Add some spacing below the contact section */
-    }
-    /* Adjust button width and font size */
-    .attributes,
-    .LinkedIn {
-        width: 100%; /* Make buttons full width */
-        font-size: 16px; /* Adjust font size for buttons */
+        margin-top: 30px;
     }
 }
