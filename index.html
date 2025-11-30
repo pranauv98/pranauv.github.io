@@ -5,26 +5,28 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <p class="name">
-            Pranauv Kunjithapatham
-        </p>
-        <button class="LinkedIn">
-            LinkedIn
-        </button>
-        <button class="attributes" onclick="scrollToSection('contact')">
-            Contact
-        </button>
+        <header class="hero">
+            <h1 class="hero-name">Pranauv Kunjithapatham</h1>
+            <h2 class="hero-title">AI Engineer • RAG Systems • NLP • Cloud Architecture</h2>
+        </header>
+        <div class="button-container">
+            <button class="LinkedIn">
+                LinkedIn
+            </button>
+            <button class="attributes" onclick="scrollToSection('contact')">
+                Contact
+            </button>
+        </div>
         <p class="title">
             About:
         </p>
         <p class="about">
-            Hi there, I'm a skilled and proactive software engineer with a strong foundation in computer science and hands-on 
-            experience in developing robust systems. With expertise in Java, Python, and cloud technologies such as AWS and 
-            Google Cloud Platform, I am eagerly seeking full-time opportunities to leverage my technical skills and contribute 
-            to innovative projects. My internship experience at Alphastream.ai and previous role at Tata Consultancy Services have 
-            equipped me with the ability to design and optimize systems for scalability and efficiency. I am now ready to 
-            bring my expertise and passion for software engineering to a dynamic team environment where I can continue to grow and 
-            make meaningful contributions. 
+            Hi there, I am an AI Engineer specializing in designing large-scale Retrieval-Augmented Generation (RAG) systems, intelligent document-processing pipelines, and high-performance search architectures. My work centers around integrating LLMs (GPT, Gemini), vector search engines (Vespa), and cloud-native infrastructures (AWS Lambda, S3, Athena) to build production-ready solutions for financial document analysis. I architect and deploy end-to-end NLP pipelines involving hybrid retrieval (dense + sparse), embedding generation, prompt-driven extraction logic, and transformer-based classifiers. I have built binary and multiclass classification models using DSPy, Hugging Face Transformers, and PyTorch—achieving 80%+ accuracy and automating complex decision workflows across thousands of documents.
+        </p>
+        <p class="about">
+            My approach combines software engineering best practices—clean architecture, modular design, CI/CD principles—with strong ML fundamentals to build reliable, traceable, and maintainable AI systems. I’m deeply interested in advancing retrieval pipelines, evaluation frameworks, and LLM-powered automation for enterprise-scale document intelligence.<br><br>
+
+
         </p>
         <button class="attributes" data-target="education">
             Education
@@ -33,7 +35,7 @@
             <b>Degree</b>      : <span>Master of Science</span> <br>
             <b>Major</b>       : <span>Computer Science</span> <br>
             <b>University</b>  : <span>SUNY Binghamton</span> <br>
-            <b>Graduation</b>  : <span>May 2024</span> <br>
+            <!-- <b>Graduation</b>  : <span>May 2024</span> <br> -->
             <b>Coursework</b>  : <span>Data Structures & Algorithms, Database Systems, Cloud Computing, Artificial Intelligence, Design patterns.</span> <br>
             
         </p>
@@ -42,6 +44,19 @@
             Work experience
         </button>
         <p id="workExperience" class="hidden">
+            <c>Alphastream.ai</c><br>
+            <br>
+            <b>Role</b>     : <span>Software Engineer(AI)</span><br>
+            <b>Location</b> : <span>New York, USA</span><br>
+            <b>Years</b>    : <span>September 2024 - Present</span><br>   
+            <b>Description</b> : <br><d>
+                • Two-Layer RAG Pipeline: Led the design and development of a cutting-edge Retrieval-Augmented Generation (RAG) pipeline, seamlessly integrating LLMs like GPT and Gemini with Vespa for advanced financial document analysis. Leveraged AWS S3 for scalable document storage, AWS Athena for high-performance metadata querying, and prompt-based value extraction, achieving a 92% improvement in response accuracy and enabling precise and relevant datapoint retrieval across large datasets.<br>
+                • Data Extraction Modules: Developed scalable AWS Lambda functions to automate the extraction of structured data from documents, integrating multiple LLM modules with custom, fine-tuned prompts. This function leverages advanced language models to process complex documents efficiently, ensuring precise and accurate data extraction for a variety of use cases. Through continuous fine-tuning, I optimized the prompts to significantly improve extraction accuracy and performance, reducing manual intervention and accelerating workflows.<br>
+                • Classification Modules: Spearheaded the development and deployment of transformer-based text classification modules, including both binary and multiclass pipelines using the DSPy framework. Rigorous testing and optimization led to 80% classification accuracy, driving impactful insights and automating key processes in financial document analysis.<br>
+                • Financial Document Processing Workflows: Played a pivotal role in re-engineering and optimizing financial document workflows. Applied expertise in machine learning and large-scale language models to address complex challenges in document processing, significantly reducing manual effort and increasing processing efficiency across multiple projects.<br>
+            </d><br>
+            <br>
+            <br> 
             <c>Alphastream.ai</c><br>
             <br>
             <b>Role</b>     : <span>Software Engineer Intern</span><br>
@@ -73,17 +88,13 @@
             Projects
         </button>
         <p id="projects" class="hidden">
-            <c>Multi-Threaded Client-Server Application</c><br>
+            <c>Document QA Chatbot</c><br>
             <br>
             <b>Role</b>     : <span>Team leader</span><br>
             <b>Location</b> : <span>Binghamton,NY</span><br>
             <b>Description</b> : <br><d>
-                • Developed a multi-threaded server using Java techniques that dynamically handles diverse real-time queries from clients. Implemented a 
-                  flexible text-based menu on the client side, allowing users to interactively submit different types of queries.<br>
-                • Designed modular classes for query processing, applying advanced Java object-oriented principles to create an extensible system. The 
-                  architecture is capable of handling various query types, showcasing scalability and adaptability.<br>
-                • Utilized Java socket programming techniques to establish efficient communication channels between clients and the server. Implemented a 
-                  user-friendly experience with robust error handling, ensuring a seamless and responsive client-server interaction.<br>
+                • Developed an interactive chatbot for querying documents using LangChain, GPT, and Vespa, allowing users to ask natural language questions and receive context-aware answers.<br>
+                • Embedded text from PDFs and internal docs into a vector store, enabling semantic search and retrieval-augmented generation (RAG) to improve information discovery and accuracy.<br>
             </d><br>
             <br>
             <br>
@@ -116,12 +127,12 @@
         </button>
 
         <p id="skills" class="hidden">
-            <b>Languages</b>     :   <span>Java, Python, C, SQL, NoSQL.</span><br>
-            <b>Databases</b>     :   <span>BigQuery, MySQL, Oracle, MongoDB, Vespa.</span><br>
-            <b>Cloud Essentials</b>     :   <span> Amazon Web Services, Google Cloud Platform.</span><br>
-            <b>NLP Frameworks</b>     :   <span> DSPy, prompt2model.</span><br>
-            <b>Agile Methodologies</b>     :   <span> Scrum, Kanban.</span><br>
-            <b>Additional skills/tools</b>     :   <span> : VS-Code, Git, ETL(Extract, Transform, Load), Control-m, Jenkins, Docker.</span><br>
+            <b>Programming Languages</b>     :   <span>Java, Python</span><br>
+            <b>Machine Learning & AI</b>     :   <span>Hugging Face Transformers, LangChain, LangSmith, LangFuse, PyTorch, DSPy</span><br>
+            <b>Data Handling & Databases</b>     :   <span> Pandas, NumPy, Vespa, PostgreSQL.</span><br>
+            <b>Cloud & DevOps</b>     :   <span> AWS, GCP, Docker, Control-M</span><br>
+            <b>Software Engineering Practices</b>     :   <span> Agile methodologies, Design patterns.</span><br>
+            <b>Version Control & Collaboration</b>     :   <span> Git</span><br>
         </p>
         <div class="line"></div>
         <section id="contact">
